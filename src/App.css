@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+tr.emp_list th {
+  background-color: #c43d58;
+  color: #fff;
+}

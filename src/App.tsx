@@ -8,6 +8,7 @@ const App: React.FC = () => {
     {
       id: 4,
       Name: "Rakesh",
+      dept:"PHP",
       add:"CRP",
       age: 25,
       mob:8976765612,
@@ -15,6 +16,7 @@ const App: React.FC = () => {
     {
       id: 7,
       Name: "Biswajit",
+      dept:".Net",
       add:"Rasulghar",
       age: 25,
       mob:8901765612,
@@ -22,6 +24,7 @@ const App: React.FC = () => {
     {
       id: 10,
       Name: "Jitendra",
+      dept:"Java",
       add:"Banivihar",
       age: 25,
       mob:8974565612,
@@ -29,6 +32,7 @@ const App: React.FC = () => {
     {
       id: 10,
       Name: "Urmila",
+      dept:"PHP",
       add:"Patia",
       age: 23,
       mob:7876785645,
@@ -36,6 +40,7 @@ const App: React.FC = () => {
     {
       id: 10,
       Name: "Priyanka",
+      dept:"SAP",
       add:"Patia",
       age: 21,
       mob:3454323454,
@@ -43,7 +48,7 @@ const App: React.FC = () => {
   ];
   return (
     <div>
-      <h1>React DataTable with TypeScript</h1>
+      <h1 className="text-center">Employee DataTable</h1>
       <PeopleData myPeoples={myPeoples} /> 
     </div>
   );
