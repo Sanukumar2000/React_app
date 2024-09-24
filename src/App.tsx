@@ -26,11 +26,24 @@ const App: React.FC = () => {
       age: 25,
       mob:8974565612,
     },
-    
+    {
+      id: 10,
+      Name: "Urmila",
+      add:"Patia",
+      age: 23,
+      mob:7876785645,
+    },
+    {
+      id: 10,
+      Name: "Priyanka",
+      add:"Patia",
+      age: 21,
+      mob:3454323454,
+    },
   ];
   return (
     <div>
-      <h1>React DataTable with TypeScript....</h1>
+      <h1>React DataTable with TypeScript</h1>
       <PeopleData myPeoples={myPeoples} /> 
     </div>
   );
