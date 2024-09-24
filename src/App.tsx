@@ -30,7 +30,7 @@ const App: React.FC = () => {
   ];
   return (
     <div>
-      <h1>React DataTable with TypeScript</h1>
+      <h1>React DataTable with TypeScript....</h1>
       <PeopleData myPeoples={myPeoples} /> 
     </div>
   );
